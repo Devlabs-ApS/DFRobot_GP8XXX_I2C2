@@ -75,7 +75,7 @@ class DFRobot_GP8XXX_IIC:public DFRobot_GP8XXX
      * @param deviceAddr I2C address
      * @param pWire I2C object
      */
-    DFRobot_GP8XXX_IIC(uint16_t resolution,uint8_t deviceAddr = DFGP8XXX_I2C_DEVICEADDR,TwoWire *pWire = &Wire)
+    DFRobot_GP8XXX_IIC(uint16_t resolution,uint8_t deviceAddr = DFGP8XXX_I2C_DEVICEADDR,TwoWire *pWire = &Wire1)
     :_resolution(resolution),_deviceAddr(deviceAddr),_pWire(pWire){
 
     }
